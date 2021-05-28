@@ -1,0 +1,113 @@
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .logo-container {
+  width: 80px;
+}
+
+header .container .logo-container img {
+  width: 100%;
+}
+
+header .container button {
+  background-color: white;
+  padding: 20px 10px;
+  color: darkblue;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main {
+  padding: 30px 0;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main ul li {
+  width: 25%;
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+main .match,
+main .result {
+  margin: 10px auto;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid darkblue;
+  padding: 10px;
+}
+
+main .match button,
+main .result button {
+  background-color: darkblue;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+main .creation-form .input-form {
+  display: flex;
+  margin: 10px 0;
+}
+
+main .creation-form .input-form div {
+  width: 15%;
+}
+
+main .creation-form .create-button input {
+  background-color: darkblue;
+  border: 1px solid darkblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.is-invalid {
+  border: 1px solid red;
+}
+
+header,
+footer {
+  padding: 10px 0;
+  color: white;
+  background-color: darkblue;
+  text-align: center;
+}
+

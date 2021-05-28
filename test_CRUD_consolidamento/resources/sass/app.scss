@@ -1,0 +1,28 @@
+@import 'partials/header';
+@import 'partials/main';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.is-invalid{
+    border:1px solid red;
+}
+header,footer{
+    padding: 10px 0 ;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}

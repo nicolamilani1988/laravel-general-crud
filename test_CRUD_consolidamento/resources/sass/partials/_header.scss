@@ -1,0 +1,22 @@
+header{
+    .container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-container{
+            width: 80px;
+            img{
+                width: 100%;
+            }
+
+        }
+        button{
+            background-color: white;
+            padding: 20px 10px;
+            color: darkblue;
+            border: 1px solid white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
+}
