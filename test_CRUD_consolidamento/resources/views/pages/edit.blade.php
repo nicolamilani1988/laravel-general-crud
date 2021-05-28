@@ -46,16 +46,16 @@
             </div>
             <div class="input-form">
                 <div>
-                    <label for="result">Result</label>
+                    <label for="result">Team vincente:</label>
                 </div>
                 <select name="result" id="result">
                     <option value="0" 
-                        @if ($match->result ==0)
+                        @if ($match->point1 > $match->point2)
                             selected
                         @endif
                     >Team1</option>
                     <option value="1" 
-                        @if ($match->result ==1)
+                        @if ($match->point1 < $match->point2)
                          selected   
                         @endif
                     >Team2</option>

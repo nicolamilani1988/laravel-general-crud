@@ -46,7 +46,7 @@
             </div>
             <div class="input-form">
                 <div>
-                    <label for="result">Result</label>
+                    <label for="result">Team Vincente</label>
                 </div>
                 <select name="result" id="result">
                     <option value="0">Team1</option>

@@ -17,7 +17,13 @@
         @endif
     </div>
     <div class="result">
-        <h2>Result: {{$match -> result}}</h2>
+        <div>Team vincente: 
+            @if ($match -> point1 > $match -> point2)
+                <strong>{{$match -> team1}}</strong>
+            @else
+                <strong>{{$match -> team2}}</strong>
+            @endif
+        </div>
         <a href="{{route('edit',$match->id)}}"><button>Modifica il match</button></a>
     </div>
 
